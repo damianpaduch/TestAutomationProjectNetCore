@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "W9cM5T7tujcaguAk9M+h5v9bRP6zG6H6fV/kOin6KTi/FzoZvgv8PFtaW5f8vP6WquctbRN9VXbPNrtblnk9nQ==",
+  "dgSpecHash": "weumqlGFWywGPCoGsft95LmJNE1uy9FQJVZPEIJ9zccBt1qjq8fVzueYdf13hLm7JAibfOFvw6HQQUooyEhHDQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\damia\\source\\repos\\TestAutomationProjectNetCore\\TestProject1\\TestProject1.csproj",
   "expectedPackageFiles": [
@@ -17,6 +17,7 @@
     "C:\\Users\\damia\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512",
     "C:\\Users\\damia\\.nuget\\packages\\nunit.analyzers\\3.6.1\\nunit.analyzers.3.6.1.nupkg.sha512",
     "C:\\Users\\damia\\.nuget\\packages\\nunit3testadapter\\4.4.2\\nunit3testadapter.4.4.2.nupkg.sha512",
+    "C:\\Users\\damia\\.nuget\\packages\\selenium.support\\4.13.1\\selenium.support.4.13.1.nupkg.sha512",
     "C:\\Users\\damia\\.nuget\\packages\\selenium.webdriver\\4.13.1\\selenium.webdriver.4.13.1.nupkg.sha512",
     "C:\\Users\\damia\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512",
     "C:\\Users\\damia\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"

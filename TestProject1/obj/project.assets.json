@@ -391,6 +391,18 @@
           "build/netcoreapp3.1/NUnit3TestAdapter.props": {}
         }
       },
+      "Selenium.Support/4.13.1": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "4.13.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/WebDriver.Support.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/WebDriver.Support.dll": {}
+        }
+      },
       "Selenium.WebDriver/4.13.1": {
         "type": "package",
         "dependencies": {
@@ -1049,6 +1061,19 @@
         "nunit_256.png"
       ]
     },
+    "Selenium.Support/4.13.1": {
+      "sha512": "vWAf7gbLjcqRkkXPCO+ID5DvYb3dktn86mtHYFIEMHe+uXP9yn6ZML15KNj78nXRir5+QiSsC8Fw0WOjuVsPJQ==",
+      "type": "package",
+      "path": "selenium.support/4.13.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/icon.png",
+        "lib/netstandard2.0/WebDriver.Support.dll",
+        "selenium.support.4.13.1.nupkg.sha512",
+        "selenium.support.nuspec"
+      ]
+    },
     "Selenium.WebDriver/4.13.1": {
       "sha512": "7asjwKWgLNjIe+NZ9GwiWWshRD9IWQzltZPiWFxF7UH62ymqjD5L0PUsWJlDm4cew1YHhcqcQpGkgi6FsGZaig==",
       "type": "package",
@@ -1132,6 +1157,7 @@
       "NUnit >= 3.13.3",
       "NUnit.Analyzers >= 3.6.1",
       "NUnit3TestAdapter >= 4.4.2",
+      "Selenium.Support >= 4.13.1",
       "Selenium.WebDriver >= 4.13.1",
       "coverlet.collector >= 3.2.0"
     ]
@@ -1190,6 +1216,10 @@
           "NUnit3TestAdapter": {
             "target": "Package",
             "version": "[4.4.2, )"
+          },
+          "Selenium.Support": {
+            "target": "Package",
+            "version": "[4.13.1, )"
           },
           "Selenium.WebDriver": {
             "target": "Package",
